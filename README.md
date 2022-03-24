@@ -3,7 +3,7 @@ A simple QB-target Weed Picking and Drying Script
 
 add this to your qb-target init.lua
 
-Config.BoxZones = {
+``Config.BoxZones = {
 	["weeddrying"] = {
         name = "weeddrying",
         coords = vector3(-113.0726, -11.14904, 69.51),
@@ -24,7 +24,6 @@ Config.BoxZones = {
         distance = 2.5
     },
 }
-
 -------------------------------------------------------------------------
 
 Config.TargetModels = {
@@ -42,3 +41,4 @@ Config.TargetModels = {
         },
         distance = 2.5,
     },
+```
